@@ -1,14 +1,14 @@
 * {
     margin: 0px;
     padding: 0px;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* banner container styles */
 .banner-container {
     width: 100%;
     height: 808px;
-    background-image: url("images/banner/banner1.png");
+    background-image: url("images/banner/banner2.png");
     background-size: 100% 808px;
     background-repeat: no-repeat;
     display: flex;
