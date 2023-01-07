@@ -111,6 +111,11 @@
 
 }
 
+.main-pannel{
+    margin: auto;
+    justify-content: center;
+}
+
 /* my plans styles */
 
 .plans-container {
