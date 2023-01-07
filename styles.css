@@ -100,3 +100,49 @@
 .intro-list {
     list-style: georgian;
 }
+
+/* my plans styles */
+
+.plans-container {
+    width: 1200px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.plans-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.plan-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.start-title {
+    text-align: center;
+}
+.plan-icon{
+    width: 93px;
+    height: 93px;
+}
+.title-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #151414;
+    padding: 5px;
+
+}
+
+.title-details {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
