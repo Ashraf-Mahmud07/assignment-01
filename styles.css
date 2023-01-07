@@ -98,10 +98,16 @@
     padding-top: 30px;
 }
 
+.tick-icon {
+    width: 20px;
+    height: 20px;
+    color: rgb(124, 204, 4);
+    font-size: 16px 11px;
+}
+
 .intro-list {
-    list-style: square;
-    list-style-type: square;
-    padding-left: 10px;
+    list-style: none;
+    margin-bottom: 5px;
 
 }
 
@@ -241,7 +247,8 @@
     color: #FFFFFF;
     padding-top: 26px;
 }
-.primary-button{
+
+.primary-button {
     color: #FFFFFF;
     text-decoration: none;
     padding-top: 10px;
@@ -283,9 +290,10 @@
     padding: 22px;
     background-blend-mode: overlay;
     background-color: #151414;
-    background-size: 320px 62px; 
+    background-size: 320px 62px;
 }
-.subscribe{
+
+.subscribe {
     justify-content: flex-end;
     text-align: left;
 }
