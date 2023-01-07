@@ -6,7 +6,7 @@
 
 /* banner container styles */
 .banner-container {
-    width: 100%;
+    width: 1600px;
     height: 808px;
     background-image: url("images/banner/banner2.png");
     background-size: 100% 808px;
@@ -202,20 +202,23 @@
 
 .footer {
     background: #151414;
-    width: 100%;
-    height: 60vh;
-    margin-top: 130px;
+    width: 1600px;
+    height: 580px;
+    margin: auto;
     display: flex;
     color: #FFFFFF;
     align-items: center;
     justify-content: center;
     text-align: left;
     justify-content: center;
+    gap: 330px;
 }
 
 .footer-details {
     width: 500px;
     height: 320px;
+    padding-top: 16px;
+
 }
 
 .future-title {
@@ -227,7 +230,62 @@
 .future-description {
     width: 485px;
     height: 78px;
-    color: #FFFFFF;
+    color: #e1d7d7;
     font-size: 19px;
     font-weight: 420px;
+}
+
+.email-and-name {
+    width: 200px;
+    height: 30px;
+    color: #FFFFFF;
+    padding-top: 26px;
+}
+.primary-button{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.icon-container {
+    padding-top: 32px;
+}
+
+.subscribe-btn {
+    color: #F15B22;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    width: 160px;
+    height: 64px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700px;
+    border: none;
+    border-radius: 8px;
+}
+
+.subscribe-title {
+    font-weight: 630px;
+    font-size: 27px;
+}
+
+.subscriber-input {
+    color: #F3F3F3;
+    padding: 5px;
+    border-radius: 10px;
+    border: 10px white;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    width: 325px;
+    height: 64px;
+    font-size: 20px;
+    padding: 22px;
+    background-blend-mode: overlay;
+    background-color: #151414;
+    background-size: 320px 62px; 
+}
+.subscribe{
+    justify-content: flex-end;
+    text-align: left;
 }
